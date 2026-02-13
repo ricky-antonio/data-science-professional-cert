@@ -27,12 +27,14 @@ __pycache__/
 # Data files (large or sensitive)
 # -----------------------------
 data/
-*.csv
 *.tsv
 *.xlsx
 *.xls
 *.json
 *.parquet
+
+!data/*.csv
+
 
 # -----------------------------
 # Environment variables
